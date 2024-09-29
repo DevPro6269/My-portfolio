@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header id="home">
+      <!-- Navbar -->
+
+      <nav
+        class="w-screen border-2 fixed top-0 bg-white z-10 p-1 flex justify-between"
+      >
+        <div class="h-12 relative hover:scale-105 rounded-full">
+          <img
+            class="h-full w-full rounded-full"
+            src="media/Black_White_Elegant_Monogram_Initial_Name_Logo-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <ul
+          class="cursor-pointer justify-between p-3 w-1/2 mr-8 hidden md:flex"
+        >
+          <li>
+            <a
+              href="#home"
+              class="px-2 py-2 transition duration-200 hover:bg-gray-700 active:bg-gray-900 hover:text-white text-gray-900"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="px-2 py-2 transition duration-200 hover:bg-gray-700 active:bg-gray-900 hover:text-white text-gray-900"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skils"
+              class="px-2 py-2 transition duration-200 hover:bg-gray-700 active:bg-gray-900 hover:text-white text-gray-900"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#certificate"
+              class="px-2 py-2 transition duration-200 hover:bg-gray-700 active:bg-gray-900 hover:text-white text-gray-900"
+              >Certificates</a
+            >
+          </li>
+          <li>
+            <a
+              href="#project"
+              class="px-2 py-2 transition duration-200 hover:bg-gray-700 active:bg-gray-900 hover:text-white text-gray-900"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="px-2 py-2 transition duration-200 hover:bg-gray-700 active:bg-gray-900 hover:text-white text-gray-900"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="flex justify-center items-center relative md:hidden">
+          <!-- Checkbox to toggle menu visibility -->
+          <input type="checkbox" id="menu-toggle" class="hidden peer" />
+
+          <!-- Label with hamburger icon (linked to checkbox) -->
+          <label for="menu-toggle" class="cursor-pointer">
+            <i class="fa-solid fa-bars fa-2xl" style="color: #030202"></i>
+          </label>
+
+          <!-- Dropdown menu (controlled by checkbox) -->
+          <div
+            class="absolute top-12 right-0 w-44 hidden bg-black peer-checked:flex flex-col"
+          >
+            <a href="#home" class="block text-white px-4 py-2 hover:bg-gray-700"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="block text-white px-4 py-2 hover:bg-gray-700"
+              >About</a
+            >
+            <a
+              href="#skils"
+              class="block text-white px-4 py-2 hover:bg-gray-700"
+              >Skils</a
+            >
+            <a
+              href="#certificate"
+              class="block text-white px-4 py-2 hover:bg-gray-700"
+              >Certifictes</a
+            >
+            <a
+              href="#project"
+              class="block text-white px-4 py-2 hover:bg-gray-700"
+              >projects</a
+            >
+            <a
+              href="#contact"
+              class="block text-white px-4 py-2 hover:bg-gray-700"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="w-screen h-auto lg:h-screen lg:flex-wrap pt-24 lg:flex">
+      <!-- home page container -->
+
+      <div
+        class="h-full w-full lg:w-3/5 lg:h-3/4 xl:ml-0 flex flex-col gap-8 p-5 xsm:p-10 sm:p-14 md:p-20 lg:p-0 lg:pl-20 lg:gap-6"
+      >
+        <!-- headings for home page  -->
+
+        <h1
+          class="text-2xl sm:text-3xl md:text-4xl lg:text-2xl self-start font-medium font-mono opacity-100"
+        >
+          Namaste(); I,m
+        </h1>
+        <h1
+          class="text-5xl sm:text-6xl md:text-8xl lg:text-5xl animate-pulse text-blue-300 font-extrabold text opacity-100"
+        >
+          Dev Rathore
+        </h1>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-4xl font-semibold">
+          I Code For Web
+        </h1>
+        <p>
+          Crafting Future-Ready Websites with a Passion for Coding, Web3, & AI.
+        </p>
+
+        <!-- buttons div -->
+
+        <div class="w-full sm:w-3/5 flex justify-around">
+          <a
+            href="mailto:devrathore653@gmail.com "
+            class="flex justify-center items-center shadow-xl shadow-blue-500 bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600 p-2 w-2/5 hover:bg-blue-600 active:bg-blue-700 hover:scale-105 active:scale-95 transition transform duration-300 ease-in-out rounded-xl"
+            ><span class="font-medium">Let's Talk </span>&nbsp;<i
+              class="fa-regular fa-message fa-lg"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a
+            href="media/Dev rathore..pdf"
+            download
+            class="flex justify-center items-center shadow-xl shadow-red-500 bg-gradient-to-r rounded-full from-red-500 via-red-400 to-red-300 p-2 hover:bg-green-600 active:bg-green-700 hover:scale-105 active:scale-95 transition transform duration-300 ease-in-out w-1/6"
+            ><i class="fa-solid fa-download fa-lg" style="color: #ffffff"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- my image section-->
+
+      <div class="h-1/2 w-full lg:w-2/5 lg:h-3/4 lg:flex hidden p-5">
+        <img
+          src="media/IMG_20221204_094548.jpg"
+          class="h-64 w-64 object-top mx-auto rounded-xl object-cover transition duration-500 transform hover:scale-110 hover:rotate-3 hover:shadow-2xl hover:opacity-90 group-hover:opacity-100 ease-in-out"
+          style="box-shadow: 19px 20px 0px 4px #737397"
+          alt=""
+        />
+      </div>
+    </section>
+    <br /><br />
+    <!-- social links section -->
+    <section
+      id="SocialLinks"
+      class="w-full flex flex-wrap justify-center gap-10"
+    >
+      <!-- social links heading -->
+
+      <div class="w-full flex justify-center mb-3 items-end">
+        <h1 class="font-semibold text-xl text-slate-500">
+          Let’s Get Social! &nbsp;
+          <i class="fa-regular fa-share-from-square fa-xl"></i>
+        </h1>
+      </div>
+
+      <!-- link-1  -->
+
+      <a href="https://www.instagram.com/virat.kohli/?hl=en" target="_blank">
+        <div
+          class="h-9 flex items-center w-40 rounded-lg hover:scale-110 bg-white border-2 shadow-lg shadow-pink-500"
+        >
+          <div
+            class="h-full w-9 bg-pink-500 rounded-lg flex justify-center items-center"
+          >
+            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i>
+          </div>
+          <h1 class="mx-auto font-medium">
+            <span class="text-pink-500">I</span>nstagram
+          </h1>
+        </div>
+      </a>
+      <!-- link-2   -->
+
+      <a href="https://www.facebook.com/virat.kohli/" target="_blank">
+        <div
+          class="h-9 flex items-center w-40 rounded-lg hover:scale-110 bg-white border-2 shadow-lg shadow-blue-600"
+        >
+          <div
+            class="h-full w-9 bg-blue-600 rounded-lg flex justify-center items-center"
+          >
+            <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i>
+          </div>
+          <h1 class="mx-auto font-medium">
+            <span class="text-blue-600">F</span>acebook
+          </h1>
+        </div>
+      </a>
+
+      <!-- link-3  -->
+
+      <a href="https://x.com/imvkohil?lang=en" target="_blank">
+        <div
+          class="h-9 flex items-center w-40 rounded-lg hover:scale-110 bg-white border-2 shadow-lg shadow-black"
+        >
+          <div
+            class="h-full w-9 bg-black rounded-lg flex justify-center items-center"
+          >
+            <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
+          </div>
+          <h1 class="text-black mx-auto font-medium">
+            <span class="font-extrabold">T</span>witter(X)
+          </h1>
+        </div>
+      </a>
+
+      <!-- link-4  -->
+
+      <a
+        href="https://www.linkedin.com/in/dev-rathore-15299a201/"
+        target="_blank"
+      >
+        <div
+          class="h-9 flex items-center w-40 rounded-lg hover:scale-110 bg-white border-2 shadow-lg shadow-blue-500"
+        >
+          <div
+            class="h-full w-9 bg-blue-500 rounded-lg flex justify-center items-center"
+          >
+            <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff"></i>
+          </div>
+          <h1 class="text-black mx-auto font-medium">
+            <span class="text-blue-500">L</span>inkdin
+          </h1>
+        </div>
+      </a>
+    </section>
+    <br /><br />
+    <!-- about section -->
+    <section
+      id="about"
+      class="h-screen flex flex-col lg:flex-row mt-3 lg:p-5 lg:flex-wrap w-screen"
+    >
+      <!-- about section heading -->
+
+      <div
+        class="p-4 w-full xsm:h-1/5 xsm:justify-end lg:h-1/6 lg:justify-center justify-center items-center flex pt-4 flex-col"
+      >
+        <p class="text-base text-slate-300">Get to know more</p>
+        <h1 class="font-bold text-3xl xsm:text-3xl sm:text-3xl">About Me</h1>
+      </div>
+      <br />
+
+      <!-- image div  -->
+
+      <div
+        class="h-1/4 w-full xsm:h-2/5 md:h-3/5 flex-col lg:w-2/5 lg:h-1/2 lg:justify-start lg:items-center flex justify-center items-center"
+      >
+        <div class="w-2/4 lg:w-60 lg:h-60 rounded-3xl bg-white aspect-square">
+          <img
+            src="media/Black_White_Elegant_Monogram_Initial_Name_Logo-removebg-preview.png"
+            class="h-full w-full"
+            alt=""
+          />
+          .
+        </div>
+        <div class="">
+          <!-- <h1 class="font-bold text-2xl">Dev Rathore</h1> -->
+          <a
+            class="p-2 hover:bg-zinc-700 hidden md:inline rounded-full text-xs bg-white hover:text-white border-2 self-end"
+            href="https://www.britannica.com/biography/Virat-Kohli" target="_blank``"
+            >Read more</a
+          >
+        </div>
+
+        <!-- text content div -->
+      </div>
+      <div class="h-1/2 w-full lg:p-0 lg:w-1/2 lg:h-1/2 p-8 overflow-hidden">
+        <p
+          class="text-slate-500 text-justify lg:pr-8 text-xl lg:text-base xl:text-xl md:text-xl xsm:text-2xl"
+        >
+          Hi, I'm Dev Rathore, a passionate MERN stack developer. I completed my
+          B.Tech in 2024, and while cricket has always been close to my heart,
+          coding has become my true love. Every day, I immerse myself in
+          programming, striving to become the best version of a developer.&nbsp;
+          <a
+            class="p-2 hover:bg-zinc-700 rounded-full text-xs md:hidden bg-white hover:text-white border-2 self-end"
+            href=""
+            >Read more</a
+          >
+          <br />
+          <br />
+          <br />
+          Before focusing on software development, I explored a variety of
+          interests, including digital marketing, podcasting, traveling, and
+          vlogging. Now, I've found my purpose in coding, and I'm dedicated to
+          pursuing this journey
+        </p>
+      </div>
+    </section>
+
+    <!-- skils section -->
+    <section
+      id="skils"
+      class="h-screen w-screen flex justify-center flex-col gap-7 items-center bg-white"
+    >
+      <!-- skil section heading -->
+
+      <div
+        class="h-auto w-full lg:justify-center justify-center items-center flex pt-4 flex-col"
+      >
+        <p class="text-base text-slate-300">My handover on</p>
+        <h1
+          class="font-bold text-4xl xsm:text-3xl sm:text-3xl md:text-3xl lg:text-3xl"
+        >
+          My Skils
+        </h1>
+      </div>
+
+      <!-- skils section grid -->
+
+      <div
+        class="grid h-4/5 w-11/12 grid-cols-2 grid-rows-5 lg:px-10 gap-3 md:h-5/6 xsm:grid-cols-3 xsm:grid-rows-4 lg:grid-cols-4 lg:grid-rows-3 lg:w-3/4 justify-items-center"
+      >
+        <div
+          id="html"
+          class="w-1/2 xsm:w-3/4 group-hover:border-0 group-hover:bg-white md:h-36 md:w-36 lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square group"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/htmllogo.png"
+            alt=""
+          />
+
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">HTML</h1>
+            <h1 class="font-semibold text-white">100%</h1>
+          </div>
+        </div>
+
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 group bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/csslogo.png"
+            alt="CSS Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-slate-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">CSS</h1>
+            <h1 class="font-semibold text-white">80%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/reactlogo.png"
+            alt="React Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-l-slate-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">REACT</h1>
+            <h1 class="font-semibold text-white">70%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/jslogo.png"
+            alt="JavaScript Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">JS</h1>
+            <h1 class="font-semibold text-white">70%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/bootstraplogo.png"
+            alt="Bootstrap Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white text-sm">Bootstrap</h1>
+            <h1 class="font-semibold text-white">100%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full p-2 w-full object-cover"
+            src="media/tailwind.png"
+            alt="Tailwind CSS Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white text-sm">TAILWIND</h1>
+            <h1 class="font-semibold text-white">80%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/nextjs-icon.png"
+            alt="Next.js Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-l-slate-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white text-sm">NEXT-J.S.</h1>
+            <h1 class="font-semibold text-white">50%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/firebase.png"
+            alt="Firebase Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">MONGO</h1>
+            <h1 class="font-semibold text-white">75%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-black relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/githublogo.png"
+            alt="GitHub Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-l-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">GITHUB</h1>
+            <h1 class="font-semibold text-white">60%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/gitlogo.png"
+            alt="Git Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white">GIT</h1>
+            <h1 class="font-semibold text-white">80%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/postgres.png"
+            alt="CSS Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-l-gray-500 border-b-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white text-sm">POSTGRE</h1>
+            <h1 class="font-semibold text-white">20%</h1>
+          </div>
+        </div>
+        <div
+          class="w-1/2 xsm:w-3/4 md:h-36 md:w-36 group lg:h-24 lg:w-24 border-2 bg-slate-100 relative aspect-square"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="media/docker.png"
+            alt="HTML Logo"
+          />
+          <!-- Hamburger div -->
+          <div
+            class="absolute h-full hamburger hidden w-full top-0 left-0 border-8 flex-col border-t-gray-500 border-l-gray-500 border-b-gray-500 border-green-400 justify-center items-center bg-black group-hover:flex"
+          >
+            <h1 class="font-semibold text-white text-sm">DOCKER</h1>
+            <h1 class="font-semibold text-white">25%</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- certificates section -->
+    <section
+      id="certificate"
+      class="h-4/5 w-full flex flex-col md:flex-row flex-wrap md:px-28 lg:px-40 lg:gap-x-28 md:gap-x-16 xl:gap-x-40 md:justify-center sm:flex-row sm:justify-center items-center gap-10 py-10"
+    >
+      <!-- section heading -->
+
+      <div
+        class="h-auto w-full xsm:h-1/5 xsm:justify-end lg:h-1/6 lg:justify-center justify-center items-center flex pt-4 flex-col"
+      >
+        <p class="text-base text-slate-300">Get to know more</p>
+        <h1 class="font-bold text-3xl xsm:text-3xl sm:text-3xl">
+          My Certifictes
+        </h1>
+      </div>
+
+      <!-- certificate card-1 -->
+
+      <div
+        class="h-80 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl bg-slate-100 w-60 border-2 rounded-3xl p-1 relative"
+      >
+        <img
+          class="w-full h-2/4 rounded-3xl object-fill"
+          src="media/UC-52e5e652-a53c-44f9-87ef-2684289b6a61.jpg"
+          alt=""
+        />
+        <div
+          class="w-full h-2/4 flex items-center flex-col p-3 justify-evenly rounded-3xl"
+        >
+          <span><h1 class="font-semibold text-xl">Digital Marketing</h1></span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a
+            href="https://www.udemy.com/certificate/UC-52e5e652-a53c-44f9-87ef-2684289b6a61/"
+            target="_blank"
+            class="h-9 transition duration-200 hover:bg-blue-600 hover:shadow-lg transform hover:scale-105 w-24 rounded-full bg-black flex justify-center items-center text-lg text-white"
+            >View</a
+          >
+        </div>
+      </div>
+      <!-- certificate card-1 -->
+
+      <div
+        class="h-80 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl bg-slate-100 w-60 border-2 rounded-3xl p-1 relative"
+      >
+        <img
+          class="w-full h-2/4 rounded-3xl object-fill"
+          src="media/Annotation 2024-09-25 164425.png"
+          alt=""
+        />
+        <div
+          class="w-full h-2/4 flex items-center flex-col p-3 justify-evenly rounded-3xl"
+        >
+          <span><h1 class="font-semibold text-xl">MERN Stack</h1></span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a
+            href="https://mycourse.app/wu7f1hqdYRxwUokj9"
+            target="_blank"
+            class="h-9 transition duration-200 hover:bg-blue-600 hover:shadow-lg transform hover:scale-105 w-24 rounded-full bg-black flex justify-center items-center text-lg text-white"
+            >View</a
+          >
+        </div>
+      </div>
+      <!-- certificate card-1 -->
+
+      <div
+        class="h-80 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl bg-slate-100 w-60 border-2 rounded-3xl p-1 relative"
+      >
+        <img
+          class="w-full h-2/4 rounded-3xl object-fill"
+          src="media/Annotation 2024-09-25 164624.png"
+          alt=""
+        />
+        <div
+          class="w-full h-2/4 flex items-center flex-col p-3 justify-evenly rounded-3xl"
+        >
+          <span><h1 class="font-semibold text-xl">FSD Lets Begin</h1></span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a
+            href="https://trainings.internshala.com/s/v/3442991/012f21b3"
+            target="_blank"
+            class="h-9 transition duration-200 hover:bg-blue-600 hover:shadow-lg transform hover:scale-105 bg-black w-24 rounded-full flex justify-center items-center text-lg text-white"
+            >View</a
+          >
+        </div>
+      </div>
+      <!-- certificate card-1 -->
+
+      <div
+        class="h-80 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl bg-slate-100 w-60 border-2 rounded-3xl p-1 relative"
+      >
+        <img
+          class="w-full h-2/4 rounded-3xl object-fill"
+          src="media/Annotation 2024-09-25 164425.png"
+          alt=""
+        />
+        <div
+          class="w-full h-2/4 flex items-center flex-col p-3 justify-evenly rounded-3xl"
+        >
+          <span><h1 class="font-semibold text-xl">Digital Marketing</h1></span>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a
+            href="https://www.udemy.com/certificate/UC-52e5e652-a53c-44f9-87ef-2684289b6a61/"
+            target="_blank"
+            class="h-9 transition duration-200 hover:bg-blue-600 hover:shadow-lg transform hover:scale-105 w-24 rounded-full bg-black flex justify-center items-center text-lg text-white"
+            >View</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section  -->
+    <section id="project" class="group flex justify-center gap-5 flex-wrap">
+      <!-- project section heading -->
+
+      <div
+        class="h-auto w-full xsm:h-1/5 xsm:justify-end lg:h-1/6 lg:justify-center justify-center items-center flex pt-4 flex-col"
+      >
+        <p class="text-base text-slate-300">Take a tour of</p>
+        <h1 class="font-bold text-3xl xsm:text-3xl sm:text-3xl">My Projects</h1>
+      </div>
+
+      <!-- proje card 1-->
+
+      <div class="max-w-md p-6 bg-white shadow-md rounded-lg">
+        <img
+          src="media/etech1.e0f961bfa302be222840.png"
+          alt="Project Image"
+          class="w-full h-44 object-cover rounded-t-lg"
+        />
+
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-gray-800">Project Title</h2>
+          <p class="text-gray-600 mt-4">
+            This is a brief description of the project. Highlight the key
+            features, technologies used, and the purpose of the project.
+          </p>
+
+          <div class="mt-6 flex justify-between">
+            <a
+              href="https://github.com/DevPro6269"
+              target="_blank"
+              class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+            >
+              View on GitHub
+            </a>
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500 transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- proje card 2-->
+      <div class="max-w-md p-6 bg-white shadow-md rounded-lg">
+        <img
+          src="media/etech1.e0f961bfa302be222840.png"
+          alt="Project Image"
+          class="w-full h-44 object-cover rounded-t-lg"
+        />
+
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-gray-800">Project Title</h2>
+          <p class="text-gray-600 mt-4">
+            This is a brief description of the project. Highlight the key
+            features, technologies used, and the purpose of the project.
+          </p>
+
+          <div class="mt-6 flex justify-between">
+            <a
+              href="https://github.com/DevPro6269"
+              target="_blank"
+              class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+            >
+              View on GitHub
+            </a>
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500 transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- proje card 3-->
+      <div class="max-w-md p-6 bg-white shadow-md rounded-lg">
+        <img
+          src="media/etech1.e0f961bfa302be222840.png"
+          alt="Project Image"
+          class="w-full h-44 object-cover rounded-t-lg"
+        />
+
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-gray-800">Project Title</h2>
+          <p class="text-gray-600 mt-4">
+            This is a brief description of the project. Highlight the key
+            features, technologies used, and the purpose of the project.
+          </p>
+
+          <div class="mt-6 flex justify-between">
+            <a
+              href="https://github.com/DevPro6269"
+              target="_blank"
+              class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+            >
+              View on GitHub
+            </a>
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500 transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- proje card 4-->
+      <div class="max-w-md p-6 bg-white shadow-md rounded-lg">
+        <img
+          src="media/etech1.e0f961bfa302be222840.png"
+          alt="Project Image"
+          class="w-full h-44 object-cover rounded-t-lg"
+        />
+
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-gray-800">Project Title</h2>
+          <p class="text-gray-600 mt-4">
+            This is a brief description of the project. Highlight the key
+            features, technologies used, and the purpose of the project.
+          </p>
+
+          <div class="mt-6 flex justify-between">
+            <a
+              href="https://github.com/DevPro6269"
+              target="_blank"
+              class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+            >
+              View on GitHub
+            </a>
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500 transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- proje card 5-->
+      <div class="max-w-md p-6 bg-white shadow-md rounded-lg">
+        <img
+          src="media/etech1.e0f961bfa302be222840.png"
+          alt="Project Image"
+          class="w-full h-44 object-cover rounded-t-lg"
+        />
+
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-gray-800">Project Title</h2>
+          <p class="text-gray-600 mt-4">
+            This is a brief description of the project. Highlight the key
+            features, technologies used, and the purpose of the project.
+          </p>
+
+          <div class="mt-6 flex justify-between">
+            <a
+              href="https://github.com/DevPro6269"
+              target="_blank"
+              class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+            >
+              View on GitHub
+            </a>
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500 transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- proje card 6-->
+      <div class="max-w-md p-6 bg-white shadow-md rounded-lg">
+        <img
+          src="media/etech1.e0f961bfa302be222840.png"
+          alt="Project Image"
+          class="w-full h-44 object-cover rounded-t-lg"
+        />
+
+        <div class="p-6">
+          <h2 class="text-2xl font-bold text-gray-800">Project Title</h2>
+          <p class="text-gray-600 mt-4">
+            This is a brief description of the project. Highlight the key
+            features, technologies used, and the purpose of the project.
+          </p>
+
+          <div class="mt-6 flex justify-between">
+            <a
+              href="https://github.com/DevPro6269"
+              target="_blank"
+              class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition"
+            >
+              View on GitHub
+            </a>
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500 transition"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <!-- contact section  -->
+
+    <section
+      id="contact"
+      class="lg:h-screen h-[120vh] flex flex-col items-center lg:flex-row lg:flex-wrap w-screen"
+    >
+      <!-- heading  -->
+      <div
+        class="h-auto w-full xsm:justify-end lg:justify-center justify-center items-center flex pt-4 flex-col"
+      >
+        <p class="text-base text-slate-300">Let's connect</p>
+        <h1
+          class="font-bold text-xl xsm:text-3xl sm:text-3xl md:text-3xl lg:text-2xl"
+        >
+          Connect Me
+        </h1>
+      </div>
+
+      <!-- contact content -->
+      <div
+        class="h-1/2 flex items-center justify-evenly gap-3 flex-col p-5 w-full lg:w-1/2 lg:h-full lg:justify-normal"
+      >
+        <h1
+          class="text-5xl lg:self-start lg:p-4 font-semibold lg:px-16 lg:text-4xl"
+        >
+          Get In <span class="text-green-500">Touch.</span>
+        </h1>
+        <p
+          class="text-justify text-xs text-gray-500 p-4 xsm:text-xl lg:text-base lg:px-16"
+        >
+          "Get in touch with me for any queries, collaborations, or
+          opportunities. Feel free to reach out via the form or contact me
+          directly using the details provided. I'd love to connect"
+        </p>
+        <div class="flex h-auto w-4/5 gap-5 items-center lg:px-8 group">
+          <div
+            class="h-10 w-10 sm:h-14 sm:w-14 lg:h-8 lg:w-8 bg-green-400 flex justify-center items-center"
+          >
+            <i
+              class="fa-solid fa-location-dot fa-xl"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <h1 class="xsm:text-xl sm:text-2xl lg:text-base">
+            Gwalior-M.P.(474001)
+          </h1>
+        </div>
+        <div class="flex h-auto w-4/5 gap-5 items-center lg:px-8">
+          <div
+            class="h-10 w-10 sm:h-14 sm:w-14 lg:h-8 lg:w-8 bg-green-400 flex justify-center items-center"
+          >
+            <i class="fa-solid fa-globe fa-xl" style="color: #ffffff"></i>
+          </div>
+          <h1 class="xsm:text-xl sm:text-2xl lg:text-base">
+            www.devrathore.com
+          </h1>
+        </div>
+        <!-- contact form -->
+      </div>
+      <div
+        class="aspect-square h-1/2 rounded-xl w-full flex justify-center p-5 lg:w-2/5 lg:h-full"
+      >
+        <form
+          action=""
+          class="flex h-full w-full flex-col items-center lg:items-start lg:justify-start justify-center"
+        >
+          <div class="h-28 w-4/5 flex flex-col lg:h-20">
+            <label class="text-xl lg:text-sm" for="">Name</label>
+            <input
+              type="text"
+              class="h-full w-full border-2 p-1 rounded-lg"
+              placeholder="your name"
+            />
+            <br />
+          </div>
+          <div class="h-28 w-4/5 flex flex-col lg:h-20">
+            <label class="self-start text-xl lg:text-sm" for="email"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="h-full w-full border-2 p-1 rounded-lg"
+              placeholder="enter your email"
+            />
+            <br />
+          </div>
+
+          <div class="h-36 w-4/5 flex flex-col lg:h-36">
+            <label class="self-start text-xl lg:text-sm" for="message"
+              >Message</label
+            >
+            <textarea
+              name="message"
+              class="border-2 w-full rounded-lg p-1"
+              placeholder="type your message here!"
+              id="message"
+              rows="50"
+              cols="34"
+            ></textarea>
+            <br />
+          </div>
+          <button
+            class="h-16 font-semibold w-24 rounded-lg text-xl p-1 text-white bg-green-400 self-center lg:font-normal lg:text-base lg:h-8 lg:w-20"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto text-center">
+        <!-- Portfolio Name -->
+        <h1 class="text-base sm:text-2xl text-gray-300 font-bold mb-4">
+          "Learning, Living, and Leveling Up."
+        </h1>
+        <!-- Social Media Links -->
+        <div class="flex justify-center space-x-6 mb-4">
+          <div class="h-10 w-auto group flex">
+            <div class="h-full w-9 border-2 flex justify-center items-center">
+              <i class="fa-solid fa-phone fa-xl" style="color: #ffffff"></i>
+            </div>
+            <div
+              class="group-hover:flex h-full w-44 border-2 hidden justify-center items-center"
+            >
+              <h1>6269141202</h1>
+            </div>
+          </div>
+
+          <div class="h-10 w-auto group flex">
+            <div class="h-full w-9 border-2 flex justify-center items-center">
+              <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff"></i>
+            </div>
+            <div
+              class="group-hover:flex h-full w-52 border-2 hidden transition-all delay-1000 ease-in-out justify-center items-center"
+            >
+              <h1>devrathore653@gmail.com</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <p class="text-sm text-gray-400">
+          &copy; 2024 Dev Rathore. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
